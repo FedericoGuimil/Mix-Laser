@@ -22,7 +22,21 @@ header .nav-link {
   background-size: cover;
   height: 100vh;
 }
-
+.hero .hero-container {
+  animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 .productos {
   background-image: url(../img/grupo-musica.webp);
 }
@@ -35,6 +49,13 @@ header .nav-link {
 .productos .container .tarjetas {
   display: flex;
   justify-content: center;
+}
+.productos .container .tarjetas .card {
+  transition: transform 0.4s;
+}
+.productos .container .tarjetas .card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(255, 255, 255, 0.897) 8px 8px;
 }
 
 .formulario-contacto {
