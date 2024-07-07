@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Font */
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header .navbar {
+  background-image: url(../img/madera.jpg);
+  background-size: cover;
+}
+header .nav-link {
+  font-weight: 500;
+  color: white;
+}
+
+.hero {
+  background-image: url(../img/grupo-musica.webp);
+  background-size: cover;
+  height: 100vh;
+}
+
+.productos {
+  background-image: url(../img/grupo-musica.webp);
+}
+.productos .titulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productos .container .tarjetas {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario-contacto {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-image: url(../img/madera.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 1rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+.productos{
+    background-image: url(../img/grupo-musica.webp);
+
+    .titulos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        .tarjetas{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
