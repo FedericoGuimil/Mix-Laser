@@ -52,10 +52,20 @@ header .nav-link {
 }
 .productos .container .tarjetas .card {
   transition: transform 0.4s;
+  padding: 0.5rem;
+}
+.productos .container .tarjetas .card .card-body {
+  border: 2px solid black;
+  border-radius: 0 0 5px 5px;
+}
+.productos .container .tarjetas .card img {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 .productos .container .tarjetas .card:hover {
   transform: scale(1.05);
-  box-shadow: rgba(255, 255, 255, 0.897) 8px 8px;
+  box-shadow: rgb(255, 255, 255) 8px 8px;
 }
 
 .formulario-contacto {
