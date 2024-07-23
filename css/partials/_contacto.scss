@@ -1,4 +1,6 @@
 .mapa{
+    border-radius: 10px;
+    
     @include mobile{
         max-width: 300px;
     }

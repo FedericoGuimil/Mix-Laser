@@ -69,6 +69,9 @@ header .nav-link {
   box-shadow: rgb(255, 255, 255) 8px 8px;
 }
 
+.mapa {
+  border-radius: 10px;
+}
 @media screen and (max-width: 400px) {
   .mapa {
     max-width: 300px;
