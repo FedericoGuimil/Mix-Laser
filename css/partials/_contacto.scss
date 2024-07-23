@@ -1,6 +1,16 @@
+.mapa{
+    @include mobile{
+        max-width: 300px;
+    }
+
+    @include mobile2{
+        max-width: 200px;
+    }
+}
+
 .formulario-contacto {
     max-width: 500px;
-    margin: 50px auto;
+    margin: auto;
     padding: 20px;
     background-color: white;
     border-radius: 10px;

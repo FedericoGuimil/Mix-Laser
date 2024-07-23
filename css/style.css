@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +39,7 @@ header .nav-link {
   }
 }
 .productos {
-  background-image: url(../img/grupo-musica.webp);
+  background-image: url(../img/grupo-musica.jpg);
 }
 .productos .titulos {
   display: flex;
@@ -68,9 +69,20 @@ header .nav-link {
   box-shadow: rgb(255, 255, 255) 8px 8px;
 }
 
+@media screen and (max-width: 400px) {
+  .mapa {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .mapa {
+    max-width: 200px;
+  }
+}
+
 .formulario-contacto {
   max-width: 500px;
-  margin: 50px auto;
+  margin: auto;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
